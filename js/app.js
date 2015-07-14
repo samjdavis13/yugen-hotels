@@ -1,3 +1,4 @@
+
 $(document).foundation();
 
 // ================
@@ -15,6 +16,7 @@ var searchBar = $('#search-bar');
 // ================
 
 $(function(){
+	$(document).foundation();
 	searchBar.toggle();
 });
 
@@ -35,10 +37,16 @@ $('#toggle-search-bar').click(function(){
 });
 // Listen for escape key to close search bar if open
 $('#search-bar-input').keyup(function(e) {
-		
 	if (e.keyCode === 27) {
 		// Escape key pressed
 		searchBar.slideToggle(); 
 	}
-	
 });
+
+// Fixes data-interchange images insisde of data-equalizer content
+$(document).on('replace', 'img', function() {
+  $(document).foundation('equalizer', 'reflow');
+});
+
+
+
