@@ -3643,6 +3643,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/featured-link-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 371077,
+		"inputAbbreviatedPath": "\/img\/featured-link-bg.png",
+		"outputAbbreviatedPath": "\/img\/featured-link-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/hero-img.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3672,6 +3683,17 @@
 		"initialSize": 19563,
 		"inputAbbreviatedPath": "\/img\/main-logo@2x.png",
 		"outputAbbreviatedPath": "\/img\/main-logo@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/meeting-room-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 226412,
+		"inputAbbreviatedPath": "\/img\/meeting-room-1.png",
+		"outputAbbreviatedPath": "\/img\/meeting-room-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

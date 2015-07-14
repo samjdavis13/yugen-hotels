@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="css/app.css" />
         <script src="bower_components/modernizr/modernizr.js"></script>
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-        <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,600,700,400italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600,700,200' rel='stylesheet' type='text/css'>
     </head>
     <body>
         
@@ -33,19 +33,18 @@
                     </div>
                 </div>
             </div>
-
             <!-- NAV BAR -->
-            <div class="wrapper">
+            <div class="wrapper nav-bar-bg">
                 <div class="row nav-bar">
                     <div class="large-12 columns">
                         <nav class="top-bar" data-topbar role="navigation">
                             <ul class="title-area">
                                 <li class="name">
-                                  <!--<h1><a href="#">Menu</a></h1>-->
+                                    <!--<h1><a href="#">Menu</a></h1>-->
                                 </li>
-                                 <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-                                <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-                              </ul>
+                                <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                                <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+                            </ul>
                             <section class="top-bar-section">
                                 <!-- Left Nav Section -->
                                 <ul class="left">
@@ -91,22 +90,22 @@
         <section class="wrapper padded-wrapper" id="welcome">
             <div class="row">
                 <div class="large-12 columns">
-                    <div class="large-8 columns">
+                    <div class="large-8 medium-7 columns">
                         <h2>Welcome</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com-modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     </div>
-                    <div class="large-4 columns booking-form">
+                    <div class="large-4 medium-5 columns booking-form">
                         <form action="">
                             <div class="row">
                                 <div class="large-12 columns">
                                     <h3>Book A Room</h3>
                                 </div>
                             </div>
-                            <div class="row row--gutter-zero">
-                                <div class="large-6 columns">
+                            <div class="row row--gutter-equalize">
+                                <div class="small-6 columns">
                                     <input type="text" placeholder="First Name">
                                 </div>
-                                <div class="large-6 columns">
+                                <div class="small-6 columns">
                                     <input type="text" placeholder="Last Name">
                                 </div>
                             </div>
@@ -122,8 +121,8 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="row row--gutter-zero">
-                                <div class="large-6 columns">
+                            <div class="row row--gutter-equalize">
+                                <div class="small-6 columns">
                                     <select name="" id="" placeholder="Select a City">
                                         <option value="" disabled selected>Date From</option>
                                         <option value="value1">11th July</option>
@@ -132,7 +131,7 @@
                                         <option value="value1">14th July</option>
                                     </select>
                                 </div>
-                                <div class="large-6 columns">
+                                <div class="small-6 columns">
                                     <select name="" id="" placeholder="Select a City">
                                         <option value="" disabled selected>Date To</option>
                                         <option value="value1">11th July</option>
@@ -143,7 +142,7 @@
                                 </div>
                                 <div class="row row--gutter-zero">
                                     <div class="large-12 columns text-center">
-                                        <a href="#" class="button">Submit</a>    
+                                        <a href="#" class="button">Submit</a>
                                     </div>
                                 </div>
                             </div>
@@ -154,108 +153,217 @@
         </section>
 
         <!-- FEATURED LINK -->
-        <section class="wrapper" id="featured-link">
-            <div class="row " data-equalizer>
-                <div class="large-5 columns text-center center-content-vertically offer" data-equalizer-watch>
-                    <div class="large-12 columns">
-                        <img data-interchange="[img/special-offer-graphic.png, (default)], [img/special-offer-graphic@2x.png, (retina)]" alt="Special Offer Graphic" class="large-10 large-offset-1 columns">
-                        
-                        <p class="featured-link-text"><br><br><br>Book any room for two nights and get<br>a third night for 50% off</p>
+        <section class="wrapper featured-link-bg" id="featured-link">
+            <div class="row row--gutter-zero featured-link" data-equalizer>
+                <div class="medium-5 columns text-center center-content-vertically offer" data-equalizer-watch>
+                    <div class="medium-10 columns">
+                        <img data-interchange="[img/special-offer-graphic.png, (default)], [img/special-offer-graphic@2x.png, (retina)]" alt="Special Offer Graphic">
+                        <p class="featured-link-text"><br>Book any room for two nights and get a third night for 50% off<br></p>
                         <a href="#" class="button button-book-now">Book Now</a>
                     </div>
                 </div>
-                <div class="large-7 columns" data-equalizer-watch>
-                    <img data-interchange="[img/special-offer-img.png, (default)]" alt="">
+                <div class="medium-7 columns featured-link-img" data-equalizer-watch>
+                    <img data-interchange="[img/special-offer-img.png, (default)]" alt="" class="img--full-width">
                 </div>
             </div>
         </section>
 
         <!-- SUITES AVAILABLE -->
-        <section class="wrapper padded-wrapper">
+        <section class="wrapper padded-wrapper show-for-medium-up">
             <div class="row">
-                <div class="large-12 columns">
-                    <h2>Suites Available</h2>
+                <div class="large-12 columns text-center">
+                    <h2 class="section-title">Suites Available</h2>
                 </div>
-                <div class="large-4 columns">
-                    <img data-interchange="[img/suites-avail-1.png, (default)]" alt="">
+            </div>
+            <div class="row suites-available">
+                <div class="small-4 columns suite-image row--gutter-zero hide-overflow" >
+                    <div class="large-12 columns">
+                        <div class="suite-description">
+                            <p>
+                                Our Suites offer Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>
+                                <a href="#" class="button-secondary">Book</a>
+                            </p>
+                        </div>
+                        <img data-interchange="[img/suites-avail-1.png, (default)]" alt="Classic">
+                        <div class="suite-caption">Test Caption 1</div>
+                    </div>
                 </div>
-                <div class="large-4 columns">
-                    <img data-interchange="[img/suites-avail-1.png, (default)]" alt="">
+                <div class="small-4 columns suite-image row--gutter-zero hide-overflow" >
+                    <div class="large-12 columns">
+                        <div class="suite-description">
+                            <p>
+                                Our Suites offer Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>
+                                <a href="#" class="button-secondary">Book</a>
+                            </p>
+                        </div>
+                        <img data-interchange="[img/suites-avail-1.png, (default)]" alt="Classic">
+                        <div class="suite-caption">Test Caption 1</div>
+                    </div>
                 </div>
-                <div class="large-4 columns">
-                    <img data-interchange="[img/suites-avail-1.png, (default)]" alt="">
+                <div class="small-4 columns suite-image row--gutter-zero hide-overflow" >
+                    <div class="large-12 columns">
+                        <div class="suite-description">
+                            <p>
+                                Our Suites offer Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>
+                                <a href="#" class="button-secondary">Book</a>
+                            </p>
+                        </div>
+                        <img data-interchange="[img/suites-avail-1.png, (default)]" alt="Classic">
+                        <div class="suite-caption">Test Caption 1</div>
+                    </div>
                 </div>
             </div>
         </section>
-
         <!-- NOTIFICATION BAR -->
-        <section class="wrapper">
+        <section class="wrapper notification-bar-bg">
             <div class="row">
                 <div class="large-12 columns">
                     <p>- Get 5% off your next stay by joining the Yugen Loyalty Programme -</p>
                 </div>
             </div>
         </section>
-
         <!-- EVENT ROOMS -->
-        <section class="wrapper padded-wrapper">
+        <section class="wrapper padded-wrapper meeting-rooms-bg">
             <div class="row">
                 <div class="row"></div>
                 <div class="large-12 columns">
-                    <h2>Meeting & Event Rooms</h2>
+                    <h2 class="text-white text-center section-title">Meeting & Event Rooms</h2>
                 </div>
             </div>
             <div class="row">
-                <ul class="tabs" data-tab>
-                    <li class="tab-title active"><a href="#panel1">Tab 1</a></li>
-                    <li class="tab-title"><a href="#panel2">Tab 2</a></li>
-                    <li class="tab-title"><a href="#panel3">Tab 3</a></li>
+                <div class="large-12 columns">
+                <ul class="tabs extra-space" data-tab data-equalizer>
+                    <li class="tab-title active"><a href="#panel1" >Johnston Room</a></li>
+                    <li class="tab-title"><a href="#panel2">Caroline Room</a></li>
+                    <li class="tab-title"><a href="#panel3">Rooftop</a></li>
                 </ul>
                 <div class="tabs-content">
                     <div class="content active" id="panel1">
-                        <p>This is the first panel of the basic tab example. You can place all sorts of content here including a grid.</p>
+                        <div class="row">
+                            <div class="large-6 columns">
+                                <img src="img/meeting-room-1.png" alt="" class="img--full-width">
+                            </div>
+                            <div class="show-for-small spacer">&nbsp;</div>
+                            <div class="large-6 columns">
+                                <p>This is the first panel of the basic tab example. You can place all sorts of content here including a grid. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com-modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <a href="#" class="button button-book-now">Book Now</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="content" id="panel2">
-                        <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+                        <div class="row">
+                            <div class="large-6 columns">
+                                <img src="img/meeting-room-1.png" alt="" class="img--full-width">
+                            </div>
+                            <div class="show-for-small spacer">&nbsp;</div>
+                            <div class="large-6 columns">
+                                <p>This is the second panel of the basic tab example. You can place all sorts of content here including a grid. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com-modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <a href="#" class="button button-book-now">Book Now</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="content" id="panel3">
-                        <p>This is the third panel of the basic tab example. This is the third panel of the basic tab example.</p>
+                        <div class="row">
+                            <div class="large-6 columns">
+                                <img src="img/meeting-room-1.png" alt="" class="img--full-width">
+                            </div>
+                            <div class="show-for-small spacer">&nbsp;</div>
+                            <div class="large-6 columns">
+                                <p>This is the third panel of the basic tab example. You can place all sorts of content here including a grid. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea com-modo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <a href="#" class="button button-book-now">Book Now</a>
+                            </div>
+                        </div>
                     </div>
-                    
+                </div> 
                 </div>
                 <style>
-                .tab-title {
-                width: 33%;
-                padding: 0 20px;
-                }
-                .tab-title:last {
-                padding-right: 0;
-                }
-                .tab-title:first {
-                padding-left: 0;
-                }
+                    .tab-title {
+                        width: 33%;
+                        padding: 0 15px;
+                    }
+                    .tab-title a {
+                        padding: 5px 0 !important;
+                    }
+                    .tab-title:first-child {
+                        padding-left: 0;
+                    }
+                    .tab-title:last-child {
+                        padding-right: 0;
+                    }
                 </style>
             </div>
         </div>
     </section>
-
     <!-- FOOTER -->
-    <footer class="wrapper">
-        <div class="row">
+    <footer class="wrapper footer-bg">
+        <div class="row center-content-vertically">
             <div class="large-4 columns">
                 <img data-interchange="[img/nav-logo.png, (default)], [img/nav-logo@2x.png, (retina)]" alt="Yugen Logo">
             </div>
+            <div class="large-4 columns social-area hide-for-small">
+            <a href="#">
+            <svg width="35px" height="36px" viewBox="0 0 35 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-614.000000, -2337.000000)" fill-opacity=".25" fill="#FFFFFF">
+                    <g id="Group" sketch:type="MSLayerGroup" transform="translate(614.000000, 2337.500000)" class="facebook">
+                    <path d="M22.9539421,2.17624235 C20.0580339,-0.725379698 15.3627353,-0.725379698 12.4668271,2.17624235 L2.17202869,12.4911347 C-0.723879551,15.3926953 -0.723879551,20.097097 2.17202869,22.9987191 L11.9779736,32.8238037 C14.8738818,35.7253643 19.5691804,35.7253643 22.4650886,32.8238037 L32.759887,22.5089114 C35.6557952,19.6073508 35.6557952,14.9029491 32.759887,12.001327 L22.9539421,2.17624235 Z M20.9442111,17.4479956 L18.3802745,17.4479956 L18.3802745,26.700348 L14.6996503,26.700348 L14.6996503,17.5160551 L12.7851274,17.5160551 L12.7851274,14.3753647 L14.6900866,14.3753647 C14.6900866,14.0108038 14.6889218,13.6781228 14.6903318,13.3454418 C14.6928454,12.7305102 14.6775802,12.1147801 14.7038805,11.5008313 C14.7759149,9.82127137 15.6979561,8.69736734 17.3585499,8.48182494 C18.6134823,8.3189857 19.8939792,8.35436684 21.2071522,8.29969806 L21.2071522,11.5510774 C21.0072949,11.5510774 20.8162656,11.5491732 20.625359,11.551446 C20.0931009,11.5578957 19.5597393,11.5469619 19.0290138,11.5794561 C18.5855881,11.6066062 18.4011185,11.7983769 18.3886734,12.2428524 C18.3691781,12.9369002 18.3834624,13.6319307 18.3834624,14.3657208 L21.2168999,14.3657208 C21.1248184,15.4068846 21.0362926,16.4068932 20.9442111,17.4479956 L20.9442111,17.4479956 Z" id="Imported-Layers" sketch:type="MSShapeGroup"></path>
+                    </g>
+                </g>
+            </svg>
+            </a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="#">
+            <svg width="35px" height="36px" viewBox="0 0 35 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                    <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-673.000000, -2337.000000)" fill="#ffffff" fill-opacity=".25">
+                        <g id="Group" sketch:type="MSLayerGroup" transform="translate(614.000000, 2337.500000)" class="twitter">
+                        <path d="M91.7707158,11.996978 L81.9683033,2.17543261 C79.0734382,-0.725144202 74.379831,-0.725144202 71.484966,2.17543261 L61.1938761,12.4866092 C58.299011,15.3871246 58.299011,20.0898317 61.1938761,22.9904085 L70.9962886,32.8119539 C73.8911536,35.7124693 78.5847608,35.7124693 81.4796872,32.8119539 L91.7707158,22.5007773 C94.6655808,19.6002619 94.6655808,14.8975548 91.7707158,11.996978 L91.7707158,11.996978 Z M84.8057454,13.1576263 C84.6693275,13.3224946 84.5283134,13.4841699 84.3798839,13.638047 C84.2346412,13.7887311 84.0814929,13.9324152 83.9242998,14.070573 C83.767168,14.2087307 83.6007211,14.3363271 83.4257557,14.4788446 C83.424959,14.5048797 83.421711,14.5450375 83.4228141,14.5850726 C83.4326808,14.9636249 83.4280232,15.3419317 83.396033,15.7193788 C83.3551567,16.2013959 83.28419,16.6790535 83.1755951,17.1503251 C82.8118754,18.7290081 82.1406335,20.1623492 81.1314724,21.4301465 C79.7581626,23.1553382 78.0034836,24.2968286 75.8673738,24.8428282 C75.3733647,24.9690737 74.8710823,25.0509859 74.3634069,25.1029946 C73.7960411,25.1611437 73.2275108,25.176249 72.6593483,25.1439508 C70.9897925,25.049021 69.4350826,24.5714863 67.9981602,23.7126974 C67.9434338,23.6799694 67.8888911,23.6470571 67.8353903,23.612487 C67.8219692,23.6038291 67.8007037,23.5975659 67.8067708,23.5643467 C67.9900708,23.5565484 68.1727579,23.595601 68.3570997,23.592408 C68.5391127,23.5892151 68.7214322,23.5965835 68.9030775,23.5881712 C69.0891353,23.5795133 69.275193,23.5621975 69.460209,23.5397239 C69.6405673,23.5178028 69.8206805,23.4902327 69.9987714,23.4546187 C70.181336,23.4182064 70.3628587,23.3743643 70.5420527,23.3240135 C70.7212467,23.2736627 70.8990311,23.2164346 71.0738739,23.1525136 C71.2444881,23.0901891 71.4129574,23.0206804 71.5781174,22.9449085 C71.7474447,22.8672945 71.9141367,22.7829262 72.077213,22.6929087 C72.2363672,22.6049789 72.391354,22.5090053 72.5448088,22.4113124 C72.7016954,22.3115318 72.8528827,22.2030319 72.9995349,22.0853214 C72.9748375,22.0434443 72.9394768,22.0583039 72.9113475,22.0565232 C72.4151935,22.0241636 71.941408,21.9063303 71.4980194,21.6785849 C70.6649268,21.2505413 70.0788081,20.5984366 69.7430952,19.7219021 C69.7269163,19.6795951 69.7131274,19.6364285 69.6995837,19.5974373 C69.7159464,19.5650163 69.74046,19.5720163 69.7604998,19.5758847 C70.0122538,19.624639 70.2664592,19.6317004 70.5217065,19.6245162 C70.7453925,19.6181917 70.9649112,19.5807356 71.183143,19.5344373 C71.2048988,19.5298321 71.2254289,19.5195163 71.2671632,19.5044111 C71.2146429,19.4874023 71.1807529,19.4740163 71.1456373,19.4654199 C69.9215538,19.1658938 68.859137,18.1835611 68.5307781,16.8254393 C68.4705974,16.5766325 68.4351141,16.3242029 68.4335207,16.0677206 C68.4332755,16.0332119 68.4379944,15.9986417 68.4411812,15.9540014 C68.6133888,16.0281154 68.7732783,16.1017381 68.9367836,16.1660276 C69.1061722,16.2326503 69.281873,16.2804222 69.4608218,16.3148695 C69.6346228,16.3483958 69.8087302,16.3785449 69.9851051,16.3749221 C70.002142,16.330773 69.9653104,16.3246327 69.9469253,16.3110625 C69.7704891,16.1810714 69.605084,16.038554 69.4543257,15.8793348 C68.9348838,15.3306334 68.6121018,14.6825199 68.5009329,13.9351169 C68.3832066,13.1440561 68.5133735,12.3919865 68.8924141,11.6856624 C68.9052224,11.6618379 68.9217691,11.6399783 68.9372126,11.6176888 C68.9389286,11.6151099 68.9448118,11.6154169 68.9580491,11.6120397 C69.0808619,11.7514869 69.2042876,11.8963991 69.3331675,12.0363376 C69.4596574,12.1736972 69.5887212,12.3089076 69.7220748,12.4395128 C69.8586765,12.5732495 69.9992617,12.703302 70.1429723,12.8294247 C70.2831897,12.9525387 70.4270842,13.0718456 70.5740429,13.1867929 C70.7246173,13.3045647 70.8785623,13.418284 71.0352651,13.5277049 C71.1881683,13.6344856 71.344197,13.7371521 71.5028608,13.8352135 C71.6653243,13.9356081 71.8306681,14.0318274 71.998402,14.1231343 C72.1621525,14.2122921 72.3287832,14.2964149 72.4971912,14.3762394 C72.6697053,14.4579674 72.844303,14.5357656 73.0209843,14.6079761 C73.193437,14.6784672 73.3682186,14.7438619 73.5445322,14.8040373 C73.7251357,14.8656864 73.9077003,14.9220548 74.0914292,14.9737565 C74.2706845,15.0241687 74.4515944,15.0698529 74.6334236,15.110195 C74.8197265,15.1515195 75.0073776,15.187502 75.1956416,15.2189405 C75.3794318,15.2496423 75.5641413,15.2779493 75.749525,15.2955106 C75.9379728,15.3133791 76.1264819,15.3467825 76.3274929,15.3269492 C76.1384935,14.3895639 76.2621031,13.506705 76.7481452,12.6861705 C77.1131518,12.0700481 77.6221142,11.6057151 78.2643076,11.2907154 C79.5501653,10.659979 81.2662968,10.8281017 82.4488912,12.0581358 C82.5771583,12.0486183 82.7036482,12.0110394 82.830567,11.9788026 C83.4464084,11.8221009 84.0308111,11.586066 84.5849397,11.2746276 C84.6197489,11.2549785 84.6556612,11.2372943 84.6950055,11.2166014 C84.6766203,11.4377767 84.4020074,11.9669517 84.1295394,12.3138199 C83.8713506,12.6425126 83.5646249,12.9177229 83.208627,13.1449771 C83.2753039,13.1666526 83.2753652,13.1670824 83.3101131,13.1616175 C83.6291568,13.1113895 83.9453814,13.0482667 84.2562744,12.9591089 C84.5231656,12.8825387 84.7850314,12.7922757 85.0415043,12.6859863 C85.0781521,12.6708196 85.1160868,12.6587231 85.1588629,12.6432494 C85.1285274,12.7442581 85.0546191,12.8568107 84.8057454,13.1576263 L84.8057454,13.1576263 Z" id="Imported-Layers" sketch:type="MSShapeGroup"></path>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+            </a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="#">
+            <svg width="35px" height="36px" viewBox="0 0 35 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                    <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-732.000000, -2337.000000)" fill-opacity="0.25" fill="#FFFFFF">
+                        <g id="Group" sketch:type="MSLayerGroup" transform="translate(614.000000, 2337.500000)" class="instagram">
+                            <g id="Imported-EPS" transform="translate(118.045455, 0.000000)" sketch:type="MSShapeGroup">
+                                <g id="Imported-Layers">
+                                    <path d="M20.3581411,14.4166287 C20.4253695,14.6698424 20.6492396,14.8417776 20.9116572,14.842697 C21.197424,14.8437391 21.4831907,14.8429422 21.7689575,14.8428809 C22.0605463,14.8428809 22.3521963,14.8444133 22.6437851,14.8425131 C22.9552298,14.8404291 23.2075969,14.5888704 23.2086387,14.2769965 C23.2105385,13.6975657 23.2104772,13.1181349 23.2086387,12.538704 C23.2076582,12.2245009 22.9543106,11.9726357 22.6391275,11.9717163 C22.061772,11.9700613 21.4843551,11.97 20.9069996,11.9717163 C20.5926132,11.9726357 20.3393882,12.2259107 20.3384689,12.5404816 C20.3366917,13.117951 20.3374884,13.6954203 20.3387754,14.2728897 C20.3388366,14.3209457 20.345823,14.3702277 20.3581411,14.4166287" id="Fill-1"></path>
+                                    <path d="M17.4655414,20.5871716 C19.050159,20.5876007 20.3359563,19.3050438 20.3377335,17.7221979 C20.339572,16.1318739 19.0547553,14.8423905 17.4667058,14.8434326 C15.85592,14.8445359 14.5918784,16.1555342 14.5948201,17.7152102 C14.597823,19.3047373 15.8765114,20.5868039 17.4655414,20.5871716" id="Fill-2"></path>
+                                    <path d="M23.209129,16.6153765 C23.2080872,16.6005429 23.2062486,16.5857706 23.2047778,16.5718564 C23.0986954,16.560394 21.9576506,16.5650525 21.9136488,16.5774343 C22.1531463,17.5191243 22.1055287,18.4468389 21.7585393,19.3546322 C21.4116112,20.2625482 20.8303947,20.9887215 20.0250018,21.5322942 C18.5395416,22.535035 16.5937167,22.5748774 15.0664609,21.6350263 C14.2997994,21.1632312 13.7155801,20.5221366 13.3269176,19.7105166 C12.845165,18.7045271 12.7469882,17.6564273 13.0183532,16.5744308 C12.9488573,16.5615587 11.7652202,16.5649912 11.7223215,16.5788441 L11.7223215,16.6473117 C11.7223215,18.7105954 11.7223215,20.7739405 11.7224441,22.8372855 C11.7224441,22.870324 11.7229343,22.9034851 11.7256921,22.9364011 C11.7445063,23.1658319 11.8994319,23.3599562 12.118767,23.4314886 C12.193901,23.4559457 12.2709962,23.4604816 12.3490719,23.4604816 C15.7613589,23.4602977 19.173646,23.460359 22.5859331,23.4602977 C22.6053601,23.4602977 22.6248484,23.4606655 22.6442754,23.4598687 C22.8959683,23.4501226 23.1007791,23.3008669 23.1796514,23.0703327 C23.2045327,22.9975131 23.2096193,22.9226095 23.2096193,22.8462347 C23.2091903,20.7789667 23.2092516,18.7117601 23.2092516,16.6444921 C23.2092516,16.6348074 23.2098031,16.625 23.209129,16.6153765" id="Fill-3"></path>
+                                    <path d="M32.7547079,12.0284764 L22.9523495,2.22412434 C20.057421,-0.671374781 15.3638103,-0.671374781 12.4689431,2.22412434 L2.17790694,12.5171891 C-0.717021531,15.4126883 -0.717021531,20.1071629 2.17784565,23.002662 L11.9802654,32.8069527 C14.8751326,35.7024518 19.5687433,35.7024518 22.4636717,32.807014 L32.7547079,22.5138879 C35.6495751,19.6184501 35.6495751,14.9239142 32.7547079,12.0284764 L32.7547079,12.0284764 Z M23.5088685,24.9601489 C23.4068921,24.9777408 23.304548,24.9835026 23.2012846,24.9834413 C21.7896715,24.9830736 20.3780583,24.9831961 18.9664452,24.9831961 C16.5534532,24.9831961 14.1404613,24.9827058 11.7275306,24.983993 C11.4762054,24.9841156 11.2354823,24.9386953 11.0097737,24.8303853 C10.4659404,24.5695096 10.1343333,24.1416637 10.0246351,23.5470928 C10.0063725,23.4484063 10.0013472,23.3461033 10.0011021,23.2454553 C9.9992636,22.4850788 10.0000603,21.724641 10.0000603,20.9642644 C10.0000603,17.9070665 10.000428,14.8499299 9.99944745,11.7927933 C9.99932488,11.527627 10.0472489,11.2736165 10.1647301,11.0364011 C10.4283121,10.5039842 10.8544803,10.1810158 11.4386996,10.0722767 C11.5411663,10.0532137 11.6475551,10.0484326 11.7521055,10.0483713 C13.6576055,10.0469615 15.5631055,10.0473292 17.4685443,10.0473292 C19.3798663,10.0473905 21.2911883,10.046655 23.2025103,10.0478809 C23.6803408,10.0481874 24.0934555,10.2179159 24.4299654,10.5560245 C24.7599791,10.8874518 24.9322482,11.2918827 24.9323707,11.7619615 C24.9334126,15.599028 24.9331674,19.4360333 24.9327997,23.2729772 C24.9326772,24.1001664 24.324312,24.8191681 23.5088685,24.9601489 L23.5088685,24.9601489 Z" id="Fill-4"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+            </a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="#">
+            <svg width="35px" height="36px" viewBox="0 0 35 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+                <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+                    <g id="Desktop-HD" sketch:type="MSArtboardGroup" transform="translate(-791.000000, -2337.000000)" fill-opacity="0.25" fill="#FFFFFF">
+                        <g id="Group" sketch:type="MSLayerGroup" transform="translate(614.000000, 2337.500000)" class="youtube">
+                            <g id="Imported-Layers" transform="translate(177.068182, 0.000000)" sketch:type="MSShapeGroup">
+                                <path d="M14.5553733,20.9528026 C16.8924958,19.7391316 19.2132076,18.5338972 21.5642493,17.3129948 C19.21063,16.0823644 16.8897464,14.8690378 14.5553733,13.6485658 L14.5553733,20.9528026" id="Fill-1"></path>
+                                <path d="M32.7543402,12.0032807 L22.9519205,2.18172807 C20.0570533,-0.718789474 15.3634426,-0.718789474 12.4685754,2.18172807 L2.17747795,12.4929123 C-0.717389234,15.3934298 -0.717389234,20.0961404 2.17747795,22.9967193 L11.9798977,32.8182719 C14.8747649,35.7187895 19.5683756,35.7187895 22.463304,32.8182719 L32.7543402,22.5070877 C35.6492074,19.6065702 35.6492074,14.9038596 32.7543402,12.0032807 L32.7543402,12.0032807 Z M26.7085005,18.8400702 C26.6783488,19.5010175 26.6232546,20.1608596 26.5770465,20.8210088 C26.5403375,21.3463772 26.4235304,21.8537544 26.2279735,22.3425877 C25.8983887,23.1666228 25.2719448,23.6245702 24.4169119,23.765614 C23.9986494,23.8345702 23.5710104,23.8545263 23.1466194,23.8765702 C22.4024491,23.9152544 21.6575434,23.9408596 20.9127603,23.9671404 C20.5116572,23.9813246 20.1102477,23.9876491 19.7088382,23.9938509 C19.0298127,24.0042895 18.3507259,24.020807 17.6717004,24.0183509 C16.7480909,24.0150351 15.8244813,23.999807 14.9009944,23.9829825 C14.2342869,23.970886 13.5675795,23.9532632 12.9012397,23.9280263 C12.3465592,23.9069649 11.7913272,23.8845526 11.2385465,23.8369035 C10.8943761,23.8071842 10.5477544,23.7545614 10.2136346,23.6680439 C9.43483896,23.4663947 8.91594825,22.9720965 8.65334677,22.2047982 C8.49186372,21.7329123 8.38657799,21.2510175 8.35164617,20.754386 C8.30458014,20.0850877 8.24458321,19.4159123 8.22576906,18.745693 C8.20382943,17.962614 8.21253174,17.178307 8.22203074,16.3947982 C8.23257157,15.5206579 8.29397803,14.6486667 8.40582113,13.7818333 C8.46826942,13.2980351 8.60082648,12.8277456 8.83039593,12.393807 C9.16653808,11.7585263 9.71104545,11.3925614 10.4017762,11.2523772 C10.7253551,11.1866754 11.0591685,11.1628509 11.3896725,11.1426491 C12.0219384,11.1039649 12.6551236,11.0792193 13.2881249,11.0531228 C13.622735,11.039307 13.9577127,11.0322456 14.2926292,11.0264123 C15.0802498,11.0127193 15.8679316,10.9999474 16.6556135,10.9901228 C17.1537289,10.9838596 17.6519057,10.9802368 18.1500212,10.9817719 C18.6269324,10.9832456 19.1038437,10.9895702 19.5806323,10.9997018 C20.2925673,11.0149298 21.0046248,11.0302807 21.7162534,11.0550877 C22.3312372,11.0765789 22.9460985,11.1059912 23.5604083,11.1421579 C23.9722973,11.1664123 24.3876182,11.1820702 24.7846766,11.3124912 C25.5503575,11.5638772 26.0492697,12.0794825 26.3024947,12.845614 C26.4628134,13.330886 26.5584162,13.8263509 26.5917547,14.3352018 C26.632631,14.9594298 26.6836805,15.5832281 26.7105228,16.2081316 C26.7290306,16.6399825 26.7140773,17.073307 26.7140773,17.5060175 L26.7123614,17.5060175 C26.7123614,17.9507632 26.7287854,18.3962456 26.7085005,18.8400702 L26.7085005,18.8400702 Z" id="Fill-2"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+            </a>
+        </div>
             <div class="large-4 columns">
-                Social Links
-            </div>
-            <div class="large-4 columns">
-                Contact and Address
+                <p class="text-extra-smaller contact-information"><span class="text-bold">Yugen Hotels & Suites</span><br>(02) 1234 5678<br>32 Sydney St, Sydney<br>PO Box 100, Sydney NSW 2000</p>
             </div>
         </div>
     </footer>
-
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/min/app-min.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/foundation/js/foundation.min.js"></script>
+<script src="js/min/app-min.js"></script>
 </body>
 </html>

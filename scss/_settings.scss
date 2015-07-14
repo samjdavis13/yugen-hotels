@@ -6,6 +6,12 @@ $dark-charcoal: darken($charcoal,5%);
 $red: #ED1F24;
 $paragraph-grey: #646464;
 
+// Social Icon Colors
+$facebook: #455a97;
+$twitter: #69abed;
+$instagram: #225687;
+$youtube: #ce2021;
+
 // Foundation by ZURB
 // foundation.zurb.com
 // Licensed under MIT Open Source
@@ -1434,7 +1440,7 @@ $topbar-link-bg-active: $red;
 $topbar-link-bg-active-hover: $red;
 // $topbar-link-font-family: $body-font-family;
 // $topbar-link-text-transform: none;
-	$topbar-link-padding: rem-calc(20);
+$topbar-link-padding: rem-calc(20);
 // $topbar-back-link-size: rem-calc(18);
 // $topbar-link-dropdown-padding: rem-calc(20);
 // $topbar-button-font-size: .75rem;
@@ -1460,7 +1466,7 @@ $topbar-dropdown-toggle-alpha: 1;
 // Top menu icon styles
 // $topbar-menu-link-transform: uppercase;
 // $topbar-menu-link-font-size: rem-calc(13);
-// $topbar-menu-link-weight: $font-weight-bold;
+$topbar-menu-link-weight: bold;
 $topbar-menu-link-color: $charcoal;
 $topbar-menu-icon-color: $charcoal;
 $topbar-menu-link-color-toggled: $charcoal;
@@ -1468,7 +1474,7 @@ $topbar-menu-icon-color-toggled: $charcoal;
 // $topbar-menu-icon-position: $opposite-direction; // Change to $default-float for a left menu icon
 
 // Transitions and breakpoint styles
-// $topbar-transition-speed: 300ms;
+$topbar-transition-speed: 100ms;
 // Using rem-calc for the below breakpoint causes issues with top bar
 $topbar-breakpoint: #{lower-bound(850px)}; // Change to 9999px for always mobile layout
 // $topbar-media-query: "#{$screen} and (min-width:#{lower-bound($topbar-breakpoint)})";

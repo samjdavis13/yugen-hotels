@@ -2,12 +2,30 @@
 ----- FOUNDATION TWEAKS -----
 ===========================*/
 
-.row--gutter-zero {
+.row--gutter-equalize {
 	padding-left: $column-gutter / 4;
 	padding-right: $column-gutter / 4;
 	.columns {
 		padding-left: $column-gutter / 4;
 		padding-right: $column-gutter / 4;
+	}
+}
+
+.row--gutter-zero {
+	padding-left: $column-gutter / 2 !important;
+	padding-right: $column-gutter / 2 !important;
+	.columns {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+.row--gutter-zero-out {
+	padding-left: 0;
+	padding-right: 0;
+	.columns {
+		padding-left: $column-gutter / 2;
+		padding-right: $column-gutter / 2;
 	}
 }
 
@@ -22,9 +40,46 @@
 		margin-bottom: 0;
 	}
 
+	.button-secondary {
+		clear: both;
+		background-color: rgba(0,0,0,0);
+		border: 2px solid white;
+		border-radius: 100px;
+		padding: 5px 40px;
+		text-transform: uppercase;
+		color: white;
+		margin-top: 15px;
 
+		transition: .2s all;
+		
+		&:hover {
+			color: $charcoal;
+			background-color: white;
 
+		}
+	}
+.hide-overflow {
+	overflow: hidden;
+}
 
+.text-white {
+	color: white;
+}
+
+.img--full-width {
+	width: 100%;
+}
+.img--full-height {
+	height: 100%;
+}
+
+.extra-space {
+	padding-bottom: 15px;
+}
+
+.spacer {
+	margin: 0 15px;
+}
 
 /*===============
 ---- MIXINS ----
@@ -84,9 +139,25 @@
 .text-smaller {
 	font-size: .875em;
 }
+.text-extra-smaller {
+	font-size: rem-calc(12);
+}
 
 .padded-wrapper {
 	padding: 45px 0;
+	@media #{$small-only} {
+		padding: 30px 0;
+	}
+}
+.contact-information {
+	color: white;
+	padding: 0;
+	margin: 0;
+	font-weight: 300;
+	text-align: right;
+}
+.text-bold {
+	font-weight: bold;
 }
 
 
@@ -103,6 +174,15 @@ h1 {
 	font-size: 3.875em;
 	line-height: 1;
 }
+
+h2 {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+	.section-title {
+		margin-bottom: 30px;
+	}
 
 p {
 	color: $paragraph-grey;
@@ -166,9 +246,24 @@ p {
 --------- TOP NAV ---------
 =========================*/
 
-.nav-bar {
-
+.nav-bar-bg {
+	
+	.columns {
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
+
+.parent-link {
+	font-weight: bold !important;
+	text-decoration: underline;
+}
+.title.back.js-generated:before {
+	content: "<";
+	color: black;
+}
+
+
 
 	.nav-bar ul.left li a {
 		font-size: .875em;	
@@ -275,6 +370,16 @@ p {
 ------ SPECIAL OFFER -------
 ==========================*/
 
+.featured-link-bg {
+	background: url("../img/featured-link-bg.png");
+	background-position: center;
+	background-size: cover;
+	@media #{$small-only} {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+}
+
 .offer {
 	background-color: $charcoal;
 	img {
@@ -283,11 +388,157 @@ p {
 	p {
 		color: white;
 	}
+	@media #{$small-only} {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
 }
 
-.featured-link-text {
-	position: relative;
-	top: 7px;
+	.offer .featured-link-text {
+		position: relative;
+		//top: 7px;
+	}
+
+
+
+
+
+/*=============================
+------ SUITES AVAILABLE -------
+=============================*/
+
+.suites-available {
+	overflow: hidden;
+}
+
+	.suite-image {
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.suite-caption {
+		background-color: rgba($charcoal,.8);
+		color: white;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+		height: 35px;
+		line-height: 35px;
+		font-size: rem-calc(18);
+	}
+
+	.suite-description {
+		opacity: 0;
+		position: absolute;
+		top: -50px;
+		bottom: 35px;
+		left: 0;
+		padding: 0 15px;
+		background-color: rgba($charcoal,.6);
+		@include center-content-vertically();
+
+		transition: .3s all ease;
+
+
+		p {
+			color: white;
+			text-align: center;
+		}
+
+		&:hover {
+			opacity: 1;
+			top: 0;
+			bottom: 35px;
+		}
+	}
+
+
+
+
+/*=============================
+------ NOTIFICATION BAR -------
+=============================*/
+
+.notification-bar-bg {
+	background-color: $red;
+
+	p {
+		color: white;
+		text-align: center;
+		margin-bottom: 0;
+		line-height: 50px;
+	}
 }
 
 
+
+
+/*==========================
+------ MEETING ROOMS -------
+==========================*/
+
+.meeting-rooms-bg {
+	background-color: $charcoal
+}
+
+	.tab-title {
+
+	}
+
+	.tabs-content {
+		margin-bottom: 0;
+	}
+
+	.tab-title a {
+		border: 2px solid white;
+		background-color: rgba(0,0,0,0) !important;
+		text-align: center;
+		font-size: rem-calc(18) !important;
+		color: white !important;
+
+		transition: .2s all ease;
+		outline: none;
+
+		@media #{$small-only} {
+			font-size: rem-calc(15) !important;
+		}
+	}
+
+	.tab-title.active a {
+		background-color: white !important;
+		color: $charcoal !important;
+	}
+
+	.meeting-rooms-bg p {
+		color: white;
+	}
+
+
+
+
+/*===================
+------ FOOTER -------
+===================*/
+
+.footer-bg {
+	background-color: $dark-charcoal;
+	height: 110px;
+	@include center-content-vertically();
+}
+
+	.social-area {
+		//text-align: center !important;
+	}
+
+.footer-bg a:hover {
+	svg g g {
+		fill-opacity: 1;
+		&.facebook {fill: $facebook;}
+		&.twitter {fill: $twitter;}
+		&.instagram {fill: $instagram;}
+		&.youtube {fill: $youtube}
+	}
+}
