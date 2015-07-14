@@ -1,1 +1,1 @@
-$(document).foundation();var searchBar=$("#search-bar");$(function(){searchBar.toggle()}),$("#toggle-search-bar").click(function(){searchBar.slideToggle(),$("#search-bar-input").focus()});
+$(document).foundation();var searchBar=$("#search-bar");$(function(){searchBar.toggle()}),$("#toggle-search-bar").click(function(){searchBar.slideToggle(),$("#search-bar-input").focus()}),$("#search-bar-input").keyup(function(a){27===a.keyCode&&searchBar.slideToggle()});

@@ -33,3 +33,12 @@ $('#toggle-search-bar').click(function(){
 	// Changes focus to the text box after the animation
 	$('#search-bar-input').focus(); 
 });
+// Listen for escape key to close search bar if open
+$('#search-bar-input').keyup(function(e) {
+		
+	if (e.keyCode === 27) {
+		// Escape key pressed
+		searchBar.slideToggle(); 
+	}
+	
+});
