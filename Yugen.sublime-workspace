@@ -1,0 +1,1270 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"dark",
+				"dark-charcoal"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"reco",
+				"recommended"
+			],
+			[
+				"r",
+				"return"
+			],
+			[
+				"backgrou",
+				"background-grey"
+			],
+			[
+				"num",
+				"numberString"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"nw",
+				"newtab"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"cover",
+				"coverImgs"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"backg",
+				"background-attachment"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"hero",
+				"heroUrl2"
+			],
+			[
+				"DIR",
+				"DIRECTORY"
+			],
+			[
+				"DI",
+				"DIRECTORY"
+			],
+			[
+				"primary",
+				"primary-navy"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"carouse",
+				"carousel-max-height"
+			],
+			[
+				"root",
+				"rootKirby"
+			],
+			[
+				"th",
+				"th	Tag"
+			],
+			[
+				"roud",
+				"rounded"
+			],
+			[
+				"roun",
+				"roundup"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"insta",
+				"instagram-glyph"
+			],
+			[
+				"primary-re",
+				"primary-red-dark"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"primar",
+				"primary-red"
+			],
+			[
+				"border-ra",
+				"border-radius"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"Primar",
+				"primary-red"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"prim",
+				"primary-red"
+			],
+			[
+				"nav",
+				"primary-navy"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"All",
+				"All-PDFs"
+			],
+			[
+				"mater",
+				"materialId"
+			],
+			[
+				"Pet",
+				"PetType"
+			],
+			[
+				"I",
+				"INSERT"
+			],
+			[
+				"B",
+				"B010"
+			],
+			[
+				"patient",
+				"patientId"
+			],
+			[
+				"her",
+				"HerbList"
+			],
+			[
+				"pre",
+				"prescriptionId"
+			],
+			[
+				"presc",
+				"prescriptionId"
+			],
+			[
+				"Herb",
+				"HerbList"
+			],
+			[
+				"H",
+				"Herb"
+			],
+			[
+				"pate",
+				"patientId"
+			],
+			[
+				"medi",
+				"medicId"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"gri",
+				"grid-width"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"light",
+				"light-grey"
+			],
+			[
+				"ligh",
+				"light-grey"
+			],
+			[
+				"text-",
+				"text-grey"
+			],
+			[
+				"tex",
+				"text-grey"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"reviewr",
+				"reviewerId"
+			],
+			[
+				"autho",
+				"authorId"
+			],
+			[
+				"mob",
+				"mobile-menu-items"
+			],
+			[
+				"cur",
+				"currentYear"
+			],
+			[
+				"sc",
+				"schoolYear"
+			],
+			[
+				"curr",
+				"currentgraduationYear"
+			],
+			[
+				"user",
+				"userWantsBalane"
+			],
+			[
+				"display",
+				"displayBalance"
+			],
+			[
+				"File",
+				"File	File.open(\"..\") { |file| .. }"
+			],
+			[
+				"sub",
+				"subtract"
+			],
+			[
+				"very",
+				"very-footer-background"
+			],
+			[
+				"Hours",
+				"HOURS_IN_A_DAY"
+			],
+			[
+				"window",
+				"windowHeight"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"use",
+				"USER_DIRECTORY"
+			],
+			[
+				"session_de",
+				"session_destroy"
+			],
+			[
+				"session_reg",
+				"session_regenerate_id"
+			],
+			[
+				"hash",
+				"hashed_salted_pass"
+			],
+			[
+				"create",
+				"createSalt"
+			],
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"force",
+				"forceDownLoad"
+			],
+			[
+				"files",
+				"files_to_zip"
+			],
+			[
+				"z",
+				"zfilename"
+			],
+			[
+				"creat",
+				"create_zip"
+			],
+			[
+				"accou",
+				"accountFile"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"date_defaul",
+				"date_default_timezone_set"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"clone",
+				"cloneNode"
+			],
+			[
+				"first",
+				"firstChild"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"Te",
+				"text-transform"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"inine",
+				"inline-block"
+			],
+			[
+				"Pa",
+				"padding-left"
+			],
+			[
+				"padding-",
+				"padding-left"
+			],
+			[
+				"menu",
+				"menuname"
+			],
+			[
+				"wp",
+				"wp_title"
+			],
+			[
+				"c",
+				"disc"
+			],
+			[
+				"right",
+				"right-align"
+			],
+			[
+				"do",
+				"document"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"last_filter": "sshtml",
+		"selected_items":
+		[
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssscss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ssswi",
+				"Set Syntax: Swift"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"ssswit",
+				"Set Syntax: Swift"
+			],
+			[
+				"ssph",
+				"Set Syntax: PHP"
+			],
+			[
+				"ssmd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"prei",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"sspython",
+				"Set Syntax: Python"
+			],
+			[
+				"prevoew",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"table enable",
+				"Table Editor: Enable for current syntax"
+			],
+			[
+				"table disba",
+				"Table Editor: Disable for current syntax"
+			],
+			[
+				"table enab",
+				"Table Editor: Enable for current syntax"
+			],
+			[
+				"table disbal",
+				"Table Editor: Disable for current syntax"
+			],
+			[
+				"table disable",
+				"Table Editor: Disable for current syntax"
+			],
+			[
+				"table editor enable",
+				"Table Editor: Enable for current syntax"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"prebew",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ssmnar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"ssmar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"sidebar",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"markdownediting",
+				"Preferences: MarkdownEditing Settings – Default"
+			],
+			[
+				"markdownpreview",
+				"Markdown Preview: Export HTML in Sublime Text"
+			],
+			[
+				"ssmak",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"ssmarkdown",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"regre",
+				"Preferences: Reg Replace Commands – User"
+			],
+			[
+				"markdown preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"ssmarkdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"markd",
+				"MarkdownEditing: Markdown Lint"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"emmet",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"ssemm",
+				"Set Syntax: Emmet"
+			],
+			[
+				"INSTALL ",
+				"Package Control: Install Package"
+			],
+			[
+				"DI",
+				"Dictionaries: Set Language"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"sscsv",
+				"Sort Lines (Case Sensitive)"
+			],
+			[
+				"ssbash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"github copy",
+				"GitHub: Copy Remote URL to Clipboard"
+			],
+			[
+				"github",
+				"GitHub: Copy Remote URL to Clipboard"
+			],
+			[
+				"open remote",
+				"GitHub: Open Remote URL in Browser"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package control ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sshtml	",
+				"Set Syntax: HTML"
+			],
+			[
+				"htacc",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"ssmm",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"sshtl",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssyam",
+				"Set Syntax: YAML"
+			],
+			[
+				"ssym",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"ssshe",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"ssm",
+				"Set Syntax: Markdown"
+			],
+			[
+				"sssql",
+				"Set Syntax: SQL"
+			],
+			[
+				"ss",
+				"Set Syntax: SQL"
+			],
+			[
+				"sssass",
+				"Set Syntax: Sass"
+			],
+			[
+				"sssq",
+				"Set Syntax: SQL"
+			],
+			[
+				"ssja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"ssmark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"packag",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Sam/Desktop/YUGEN HOTELS/WEBSITE/SITE",
+		"/Users/Sam/Desktop/YUGEN HOTELS/WEBSITE/SITE/bower_components",
+		"/Users/Sam/Desktop/YUGEN HOTELS/WEBSITE/SITE/bower_components/foundation",
+		"/Users/Sam/Desktop/YUGEN HOTELS/WEBSITE/SITE/bower_components/foundation/scss",
+		"/Users/Sam/Desktop/YUGEN HOTELS/WEBSITE/SITE/bower_components/foundation/scss/foundation",
+		"/Users/Sam/Desktop/YUGEN HOTELS/WEBSITE/SITE/bower_components/foundation/scss/foundation/components",
+		"/Users/Sam/Desktop/YUGEN HOTELS/WEBSITE/SITE/css",
+		"/Users/Sam/Desktop/YUGEN HOTELS/WEBSITE/SITE/img",
+		"/Users/Sam/Desktop/YUGEN HOTELS/WEBSITE/SITE/js",
+		"/Users/Sam/Desktop/YUGEN HOTELS/WEBSITE/SITE/js/min",
+		"/Users/Sam/Desktop/YUGEN HOTELS/WEBSITE/SITE/scss"
+	],
+	"file_history":
+	[
+		"/Users/Sam/Desktop/YUGEN HOTELS/WEBSITE/SITE/scss/_settings.scss",
+		"/Users/Sam/Desktop/YUGEN HOTELS/WEBSITE/SITE/scss/_style.scss",
+		"/Users/Sam/Desktop/YUGEN HOTELS/WEBSITE/SITE/index.html",
+		"/Users/Sam/Desktop/table.html",
+		"/Users/Sam/Desktop/YUGEN HOTELS/WEBSITE/SITE/js/app.js",
+		"/Users/Sam/Desktop/YUGEN HOTELS/WEBSITE/SITE/css/app.css",
+		"/Users/Sam/Desktop/YUGEN HOTELS/WEBSITE/SITE/scss/app.scss",
+		"/Users/Sam/Desktop/YUGEN HOTELS/WEBSITE/SITE/Yugen.sublime-project",
+		"/Users/Sam/Desktop/YUGEN HOTELS/WEBSITE/SITE/index.bak.html",
+		"/Applications/MAMP/htdocs/macc-main/wp-content/themes/macctheme/index.php",
+		"/Applications/MAMP/htdocs/macc-main/wp-content/themes/macctheme/css/style-home.css",
+		"/Applications/MAMP/htdocs/macc-main/wp-content/themes/macctheme/style.css",
+		"/Users/Sam/quotas.py",
+		"/Users/Sam/Desktop/json.json",
+		"/Users/Sam/Desktop/index.php",
+		"/Users/Sam/Desktop/facebook.svg",
+		"/Applications/MAMP/htdocs/quota-api/index.php",
+		"/Users/Sam/git/TMA - Final Assessment/index.html",
+		"/Applications/MAMP/htdocs/quota-api/quota-info.txt",
+		"/Users/Sam/Desktop/quota-info.txt",
+		"/Users/Sam/Dropbox/Documents/ip.txt",
+		"/Users/Sam/contributors.php",
+		"/Users/Sam/Desktop/Web Hosting For Students Backup/sourcemagazine.net.au/index.php",
+		"/Users/Sam/Desktop/Web Hosting For Students Backup/sourcemagazine.net.au/contributors.php",
+		"/Users/Sam/Desktop/Web Hosting For Students Backup/sourcemagazine.net.au/stylesheets/style.css",
+		"/Users/Sam/Downloads/YOURLS-1.7/user/config.php",
+		"/Users/Sam/index.php",
+		"/Users/Sam/index.html",
+		"/Users/Sam/Library/Caches/TemporaryItems/index.html",
+		"/Users/Sam/git/samjdavis13.github.io/css/main.scss",
+		"/Users/Sam/git/samjdavis13.github.io/_sass/_contact.scss",
+		"/Users/Sam/Desktop/Runsheet.md",
+		"/Users/Sam/Desktop/index.html",
+		"/Users/Sam/Downloads/ddd (1)",
+		"/Users/Sam/Downloads/ddd",
+		"/Users/Sam/Desktop/YUGEN HOTELS/Style Guide Copy.txt",
+		"/Users/Sam/Documents/rng.py",
+		"/Users/Sam/javascript-essential-training/ex01/myscript.js",
+		"/Users/Sam/Desktop/Report Checklist.md",
+		"/Users/Sam/Downloads/ddd(1)",
+		"/Users/Sam/Desktop/hls_vod_mvp.m3u8",
+		"/Users/Sam/Desktop/Academic Report Notes.md",
+		"/Users/Sam/Desktop/changes-150603",
+		"/Users/Sam/Desktop/notes.md",
+		"/Users/Sam/Dropbox/PDFs/Radioactive",
+		"/Volumes/KB/site/snippets/header.php",
+		"/Volumes/KB/site/controllers/search.php",
+		"/Volumes/KB/site/plugins/search.php",
+		"/Volumes/KB/site/templates/search.php",
+		"/Users/Sam/Downloads/kirby-2.1.0/site/plugins/index.html",
+		"/Users/Sam/Desktop/runsheet.md",
+		"/Users/Sam/Desktop/Speech contents.md",
+		"/Users/Sam/Desktop/Speech contents",
+		"/Users/Sam/Desktop/Plex4Samsung_1.017/profiles/Samsung.xml",
+		"/Volumes/PLEX/Plex/profiles/Samsung.xml",
+		"/Users/Sam/Downloads/Samsung.xml",
+		"/Users/Sam/download-sort",
+		"/Users/Sam/Dropbox/Uni/2015/Autumn 2015/Professional Design Studio/Assignments/LB 2/Article Draft.md",
+		"/Users/Sam/git/cast/_posts/2015-05-05-pds-lecture-8.markdown",
+		"/Users/Sam/git/cast/_posts/2015-05-03-dpe-lecture-9.markdown",
+		"/Users/Sam/git/cast/_posts/2015-04-28-pds-lecture-7.markdown",
+		"/Users/Sam/git/cast/_posts/2015-04-27-dpe-lecture-8.markdown",
+		"/Users/Sam/git/cast/_posts/2015-04-02-dpe-lecture-7.markdown",
+		"/Users/Sam/git/cast/_posts/2015-03-31-pds-lecture-6.markdown",
+		"/Users/Sam/git/cast/_posts/2015-03-28-dpe-lecture-6.markdown",
+		"/Users/Sam/git/cast/_posts/2015-03-24-pds-lecture-5-1.markdown",
+		"/Users/Sam/git/cast/_posts/2015-03-24-pds-lecture-5-0.markdown",
+		"/Users/Sam/git/cast/_posts/2015-03-19-dpe-lecture-5.markdown",
+		"/Users/Sam/git/cast/_posts/2015-03-17-pds-lecture-4.markdown",
+		"/Users/Sam/git/cast/_posts/2015-03-15-dpe-lecture-4.markdown",
+		"/Users/Sam/Desktop/data.csv",
+		"/Applications/MAMP/htdocs/macc-main/wp-content/themes/macctheme/header.php",
+		"/Volumes/KB/content/home/home.txt",
+		"/Volumes/KB/content/site.txt",
+		"/Volumes/KB/assets/styles/styles.css",
+		"/Volumes/KB/assets/styles/css.css",
+		"/Volumes/KB/content/01-applications/01-software/01-meridian/01-EMPDUPE Export/empdupe-export.txt",
+		"/Users/Sam/Desktop/Article Draft.md",
+		"/Users/Sam/Dropbox/Uni/2015/Autumn 2015/Professional Design Studio/Assignments/LB 2/Article Summary.md",
+		"/Users/Sam/Desktop/Article Draft",
+		"/Volumes/Sam/quotas.py",
+		"/Users/Sam/javascript-essential-training/ex01/index.html",
+		"/Users/Sam/Downloads/Apache_OpenOffice_4.1.1_MacOS_x86-64_install_en-US.dmg.md5.txt",
+		"/Users/Sam/git/cast/files/pds-lecture-7.mp3",
+		"/Users/Sam/git/cast/_posts/2015-04-28-pds-lecture-6.markdown",
+		"/Users/Sam/Desktop/100wd.md",
+		"/Users/Sam/Desktop/MDP Assessment 1/MDP-Assesment-1.md",
+		"/Users/Sam/git/cast/_posts/2015-04-02-dpe-lecture-8.markdown",
+		"/Users/Sam/Desktop/Task 2/Site/MDP-Assesment-1.md",
+		"/Users/Sam/Desktop/Task 2/Site/website-content.md",
+		"/Users/Sam/Desktop/Task 2/Site/index.html",
+		"/Users/Sam/Desktop/stackblur.js",
+		"/Users/Sam/Dropbox/Uni/2015/Autumn 2015/Design Professional Engagement/Assignments/2/Design Studio Information Overview.md",
+		"/Users/Sam/Dropbox/uni/2015/Autumn 2015/Design Professional Engagement/Assignments/2/Design Studio Information Overview.md",
+		"/Applications/MAMP/htdocs/macc-main/installer.php",
+		"/Applications/MAMP/htdocs/macc-main/wp-content/themes/macctheme/js/theme.js",
+		"/Applications/MAMP/htdocs/macc-main/wp-content/themes/macctheme/css/type.css",
+		"/Users/Sam/Desktop/speech.md",
+		"/Users/Sam/Desktop/Individual Report/Speech.md",
+		"/Users/Sam/Desktop/ports.csv",
+		"/Users/Sam/Dropbox/Uni/2015/Autumn 2015/Professional Design Studio/Assignments/LB 1/Presentation'/speech.md",
+		"/Users/Sam/Dropbox/Uni/2015/Autumn 2015/Professional Design Studio/Assignments/LB 1/Presentation'/Presentation-Topics.md",
+		"/Users/Sam/Dropbox/Uni/2015/Autumn 2015/Professional Design Studio/Assignments/LB 1/Individual Report/Individual Report.md",
+		"/Users/Sam/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/Users/Sam/Library/Application Support/Sublime Text 3/Packages/User/Markdown.sublime-settings",
+		"/Users/Sam/Library/Application Support/Sublime Text 3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/Users/Sam/Library/Application Support/Sublime Text 3/Packages/User/Markdown (Standard).sublime-settings",
+		"/Users/Sam/Library/Application Support/Sublime Text 3/Packages/User/Default.sublime-commands",
+		"/Users/Sam/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/Sam/Dropbox/PS4 Download Files.md.txt",
+		"/Users/Sam/Documents/GIT/cast/_posts/2015-03-31-pds-lecture-6.markdown",
+		"/Users/Sam/Desktop/iPad Serials.csv",
+		"/Users/Sam/Desktop/Run Sheet.md",
+		"/Users/Sam/Desktop/instruction.md",
+		"/Users/Sam/Desktop/Apple-Hardware.csv",
+		"/Users/Sam/Desktop/apple.csv",
+		"/Users/Sam/Dropbox/Work/2015/Term 1/Print/2015 Davinci Decathlon Awards/Attendance.csv",
+		"/Users/Sam/Desktop/something.md",
+		"/Volumes/KB/site/templates/login.php",
+		"/Applications/MAMP/htdocs/kbv2/content/04-devices/01-apple/01-email-signatures/email-signatures.txt",
+		"/Users/Sam/Desktop/Copy of List of schools 2015b.csv",
+		"/Users/Sam/Documents/GIT/cast/_posts/2015-03-24-pds-lecture-5-0.markdown",
+		"/Users/Sam/Documents/GIT/cast/_posts/2015-03-24-pds-lecture-5-1.markdown",
+		"/Users/Sam/Documents/GIT/cast/_posts/2015-03-19-dpe-lecture-5.markdown",
+		"/Volumes/KB/content/04-devices/01-apple/01-email-signatures/email-signatures.txt",
+		"/Volumes/KB/content/04-devices/01-apple/01-email-signatures/apple.txt",
+		"/Users/Sam/Desktop/email-signatures.md",
+		"/Users/Sam/Desktop/signature update command.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"colspan=\"4\"",
+			"<td width=\"..%",
+			"<td width=\"..",
+			"\\t.\\n",
+			"<td width=\"24%\"></td>",
+			"<td width=\"33%\" ",
+			"<td",
+			"color",
+			"$medium-range",
+			"34.",
+			".34",
+			"$font-family-sans-serif",
+			"$body-font-family",
+			"e.",
+			"font",
+			"z-inde",
+			".34",
+			"primary-color",
+			"34.",
+			"background-color",
+			"background",
+			"<td width=\".+\">",
+			"<td>",
+			"<tr>",
+			"</tr>",
+			"width=\".+\"",
+			"\\t+\\n",
+			"<td valign=\"bottom\" width=\"85\"></td>",
+			"<td align=\"center\">",
+			"<tr align=\"center\">",
+			"<td",
+			"<tr",
+			"filename",
+			"php",
+			"contact",
+			"font-wei",
+			"nav",
+			"webfontregular",
+			"##",
+			"row",
+			"$pages",
+			"$",
+			"$pages",
+			"h265",
+			"\\t",
+			"self",
+			"rm",
+			"img",
+			"---",
+			"data-show-count=\"false\"",
+			"tim",
+			"mailsent",
+			"mailGotSent",
+			"Figure\\s\\d\\d?",
+			"reflection",
+			"reflection	",
+			"reflection",
+			"hasn",
+			"font-family",
+			"feature",
+			"#carousel-example-generic",
+			"feature",
+			"cover-img",
+			"animation",
+			"bounce",
+			"staff-img",
+			"arrow",
+			"main-logo",
+			"main",
+			"arrow",
+			"main-logo",
+			"arrow",
+			"main-logo",
+			"P {",
+			"p {",
+			"h4",
+			"bibliography",
+			"Bibliography",
+			"padding",
+			"</li> <li>",
+			"display: none",
+			"displays: none",
+			".bg",
+			".hero",
+			"hero",
+			"slider",
+			"theme_styles()",
+			"font-family",
+			"p {",
+			"P {",
+			"p {",
+			"font-family",
+			"font",
+			"poster",
+			"__",
+			"navItem",
+			"input",
+			"logo",
+			"slider",
+			"960",
+			"font-size",
+			"image",
+			"art",
+			"^\\t",
+			"^\\n",
+			"\\s,",
+			"^.+:\\s?",
+			"^.+:",
+			"^\\d\\.",
+			"^\\d\\. ",
+			"`paste`",
+			"paste",
+			"<",
+			">",
+			"(\\d)\\s?\\/\\s?([A-Z a-z])",
+			"ubiquitout_XXXXXXX.mailsignature",
+			"ubiquitous_",
+			"iCloud Drive",
+			"gam",
+			"User",
+			"post.date",
+			"\\n",
+			"[\\[\\]]",
+			"](\\s)",
+			"'",
+			"hero",
+			"font-size",
+			"hero"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"colspan=\"3\"",
+			"<td width=\"33",
+			"<td width=\"33%",
+			"",
+			"<td width=\"33%\"",
+			"<td width=\"33%\" ",
+			"<td width=\"50%\">",
+			"<tr width=\"50%\">",
+			"<tr width=\"50%>",
+			"</tr width=\"50%>",
+			"width=\"50%\"",
+			"",
+			"<td align=\"center\" width=\"33%\">",
+			"<tr>",
+			"<td align=\"center\"",
+			"<tr align=\"center\"",
+			"filepath",
+			"avenir-webfont",
+			"###",
+			"result",
+			",",
+			"data-show-count=\"false\" data-size=\"large\"",
+			"mailWasSent",
+			"mailsent",
+			"",
+			"#carousel-1",
+			"works-cited",
+			"Works Cited",
+			"</li><li>",
+			"Info on his personality",
+			"",
+			",",
+			"",
+			"paste (Command-V)",
+			"`paste`",
+			"",
+			"\\n",
+			"$1/$2",
+			"python gam.py",
+			",\\n",
+			"\\n,",
+			"",
+			"],",
+			"], ",
+			"",
+			"font-family:Hero, Helvetica, Arial, sans-serif",
+			"font-family:Hero, Calibri, Helvetica, Arial, sans-serif",
+			"font-family:Calibri, Helvetica, Arial, sans-serif",
+			"\\n",
+			"",
+			",",
+			"",
+			"\\n",
+			"",
+			" ",
+			",",
+			"md",
+			",",
+			"\\1 \\2 ",
+			"",
+			"\\1\\n",
+			"",
+			",",
+			"\\1 ",
+			" \\1",
+			"\\1\\n",
+			",",
+			"",
+			"\\1\\n",
+			" ",
+			" INTEGER ",
+			"INTEGER",
+			"",
+			"show-for-large-up",
+			"h2",
+			"show_slider_everywhere",
+			"show_slider_everywhere_setting",
+			"showslider_everywhere_setting",
+			"section_general",
+			"general_settings",
+			"\"",
+			"'",
+			"http://localhost:8888/macc/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 112.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "Yugen.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"yueg",
+				"Yugen.sublime-project"
+			],
+			[
+				"style-ho",
+				"css/style-home.css"
+			],
+			[
+				"style.css",
+				"style.css"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"heade",
+				"header.php"
+			],
+			[
+				"footer",
+				"footer.php"
+			],
+			[
+				"foot",
+				"footer.php"
+			],
+			[
+				"screen",
+				"css/screen.css"
+			],
+			[
+				"foo",
+				"footer.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Applications/MAMP/projects/macctheme.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

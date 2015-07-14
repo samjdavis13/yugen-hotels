@@ -1,0 +1,347 @@
+/*===========================
+----- FOUNDATION TWEAKS -----
+===========================*/
+
+.row--gutter-zero {
+	padding-left: $column-gutter / 4;
+	padding-right: $column-gutter / 4;
+	.columns {
+		padding-left: $column-gutter / 4;
+		padding-right: $column-gutter / 4;
+	}
+}
+
+.button {
+	border-radius: 100px;
+	padding: 10px 40px;
+	text-transform: uppercase;
+	font-size: rem-calc(18);
+}
+
+
+
+
+
+/*=======================
+----- FONT INCLUDES -----
+=======================*/
+
+@font-face {
+    font-family: 'titillium';
+    src: url('fonts/titillium-bold-webfont.eot');
+    src: url('fonts/titillium-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/titillium-bold-webfont.woff2') format('woff2'),
+         url('fonts/titillium-bold-webfont.woff') format('woff'),
+         url('fonts/titillium-bold-webfont.ttf') format('truetype'),
+         url('fonts/titillium-bold-webfont.svg#titillium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'titillium';
+    src: url('fonts/titillium-regular-webfont.eot');
+    src: url('fonts/titillium-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/titillium-regular-webfont.woff2') format('woff2'),
+         url('fonts/titillium-regular-webfont.woff') format('woff'),
+         url('fonts/titillium-regular-webfont.ttf') format('truetype'),
+         url('fonts/titillium-regular-webfont.svg#titillium') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'titillium';
+    src: url('titillium-regularitalic-webfont.eot');
+    src: url('titillium-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('titillium-regularitalic-webfont.woff2') format('woff2'),
+         url('titillium-regularitalic-webfont.woff') format('woff'),
+         url('titillium-regularitalic-webfont.ttf') format('truetype'),
+         url('titillium-regularitalic-webfont.svg#titillium') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'titillium';
+    src: url('titillium-semibold-webfont.eot');
+    src: url('titillium-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('titillium-semibold-webfont.woff2') format('woff2'),
+         url('titillium-semibold-webfont.woff') format('woff'),
+         url('titillium-semibold-webfont.ttf') format('truetype'),
+         url('titillium-semibold-webfont.svg#titillium') format('svg');
+    font-weight: semibold;
+    font-style: normal;
+
+}
+
+
+
+
+
+/*===============
+---- MIXINS ----
+===============*/
+
+@mixin center-content-vertically() {
+	display: -webkit-flex;
+	display: 		 flex;
+	-webkit-justify-content: center;
+			justify-content: center;
+	-webkit-align-items: center;
+			align-items: center;
+}
+
+.center-content-vertically {
+	@include center-content-vertically();
+}
+
+@mixin box-shadow( $horiz : .5em , $vert : .5em , $blur : 0px , $spread : 0px , $color : #000000 ){
+  -webkit-box-shadow: $horiz $vert $blur $spread $color;
+  -moz-box-shadow: $horiz $vert $blur $spread $color;
+  box-shadow: $horiz $vert $blur $spread $color;
+}
+
+
+
+/*===============
+---- GENERAL ----
+===============*/
+
+.wrapper {
+	width: 100%;
+}
+
+.bg-charcoal {
+	background-color: $charcoal;
+	color: #fff;
+}
+
+.bg-dark-charcoal {
+	background-color: $dark-charcoal;
+	color: #fff;
+}
+
+.sjd-text-right-align {
+	text-align: right;
+}
+
+.text-red {
+	color: $red;
+}
+
+.text-larger {
+	font-size: 1.125em;
+}
+
+.text-smaller {
+	font-size: .875em;
+}
+
+.padded-wrapper {
+	padding: 45px 0;
+}
+
+
+
+
+
+/*==================
+---- TYPOGRAPHY ----
+==================*/
+
+h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 3.875em;
+	line-height: 1;
+}
+
+p {
+	color: $paragraph-grey;
+}
+
+/*========================
+-------- LOGO BAR --------
+========================*/
+
+.logo-bar {
+	height: 110px;
+	@include center-content-vertically();
+}	
+
+		.logo-bar-img img{
+			
+
+		}
+
+	.logo-bar-text {
+		line-height: 1;
+	}
+
+
+
+
+
+/*========================
+------- SEARCH BAR -------
+========================*/
+
+.search-bar {
+	height: 50px;
+	@include center-content-vertically();
+}
+
+	.search-bar input {
+		background-color: $dark-charcoal;
+		margin: 0;
+		border: none;
+
+		text-align: right;
+		color: white;
+
+		@include box-shadow(0, 0, 0, 0px, #000000);
+
+		&:hover, &:focus{
+			background-color: $dark-charcoal;
+		}
+	}
+
+
+
+
+
+/*=========================
+--------- TOP NAV ---------
+=========================*/
+
+.nav-bar {
+
+}
+
+	.nav-bar ul.left li a {
+		font-size: .875em;	
+		text-transform: uppercase;
+
+		&:before {
+			-webkit-transition: height .2s;
+			transition: height .2s;
+
+			content: "";
+			position: absolute;
+			
+			left: 0;
+			bottom: 0px;
+			
+			height: 0px;
+			width: 100%;
+			background-color: $red;
+			
+			opacity: 0;
+			
+		}
+
+		&:hover {
+			position: relative;
+			&:before {
+				opacity: 1;
+				height: 4px;
+				width: 100%;
+			}
+		}
+
+		@media screen and (max-width: 850px) {
+			&:hover {
+				background-color: lightgrey;
+			&:before {
+				opacity: 0;
+			}
+		}
+		}
+	}
+
+	li.active a {
+		font-weight: bold !important;
+	}
+
+	.nav-bar ul.left li ul li a {
+		&:hover {
+			
+			&:before {
+				opacity: 0;
+			}
+		}
+	}
+
+
+
+
+
+/*=========================
+----- CALL TO ACTION ------
+=========================*/
+
+.call-to-action-bg {
+	background: url('/img/hero-img.png');
+	height: 450px;
+	background-position: center;
+	background-size: cover;
+	@include center-content-vertically();
+}
+
+	.call-to-action-bg p, .call-to-action-bg h1 {
+		color: white;
+		text-align: center;
+	}
+
+	.call-to-action-body {
+		font-style: italic;
+		font-size: 1.125em;
+	}
+
+
+
+
+
+/*==========================
+----- WELCOME SECTION ------
+==========================*/
+
+.booking-form {
+	background-color: $charcoal;
+	padding-top: 10px;
+	border-radius: $global-radius;
+	h3 {
+		color: white;
+	}
+}
+
+
+
+
+
+/*==========================
+------ SPECIAL OFFER -------
+==========================*/
+
+.offer {
+	background-color: $charcoal;
+	img {
+		clear: both;
+	}
+	p {
+		color: white;
+	}
+}
+
+
+
+
+
+
+
+
+

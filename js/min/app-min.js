@@ -1,0 +1,1 @@
+$(document).foundation();var searchBar=$("#search-bar");$(function(){searchBar.toggle()}),$("#toggle-search-bar").click(function(){searchBar.slideToggle(),$("#search-bar-input").focus()});
